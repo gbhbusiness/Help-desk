@@ -1,0 +1,168 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fan_coffee_pos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-12 06:41+0000\n"
+"PO-Revision-Date: 2020-06-12 06:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fan_coffee_pos
+#: model_terms:ir.ui.view,arch_db:fan_coffee_pos.view_pos_create_invoice_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: fan_coffee_pos
+#: code:addons/fan_coffee_pos/wizard/create_invoice.py:0
+#: model:ir.actions.act_window,name:fan_coffee_pos.action_report_pos_create_invoice
+#: model:ir.ui.menu,name:fan_coffee_pos.menu_report_pos_create_invoice
+#: model_terms:ir.ui.view,arch_db:fan_coffee_pos.view_pos_create_invoice_wizard
+#, python-format
+msgid "Create Invoice"
+msgstr "Crear factura"
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__partner_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: fan_coffee_pos
+#. openerp-web
+#: code:addons/fan_coffee_pos/static/src/xml/pos_credit_note.xml:0
+#, python-format
+msgid "Customer:"
+msgstr "Cliente:"
+
+#. module: fan_coffee_pos
+#. openerp-web
+#: code:addons/fan_coffee_pos/static/src/xml/pos_credit_note.xml:0
+#: model:ir.model.fields.selection,name:fan_coffee_pos.selection__pos_order__state__credit_note
+#: model_terms:ir.ui.view,arch_db:fan_coffee_pos.view_pos_config_form_extend
+#, python-format
+msgid "Delivery Note"
+msgstr "Albarán"
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__end_date
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: fan_coffee_pos
+#: model_terms:ir.ui.view,arch_db:fan_coffee_pos.view_pos_create_invoice_wizard
+msgid "Get Order"
+msgstr "Obtener pedidos"
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__id
+msgid "ID"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: code:addons/fan_coffee_pos/wizard/create_invoice.py:0
+#, python-format
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_config__pos_credit_note
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_order__is_delivery_note
+#: model_terms:ir.ui.view,arch_db:fan_coffee_pos.view_pos_config_form_extend
+msgid "Is Delivery Note"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__is_load
+msgid "Load"
+msgstr ""
+
+#. module: fan_coffee_pos
+#. openerp-web
+#: code:addons/fan_coffee_pos/static/src/js/pos_credit_note.js:0
+#, python-format
+msgid "Please select the customer"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model,name:fan_coffee_pos.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración del TPV"
+
+#. module: fan_coffee_pos
+#: model:ir.model,name:fan_coffee_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Pedidos del TPV"
+
+#. module: fan_coffee_pos
+#: model:ir.model,name:fan_coffee_pos.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesión TPV"
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__pos_order_ids
+msgid "Pos Order"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model_terms:ir.ui.view,arch_db:fan_coffee_pos.view_pos_create_invoice_wizard
+msgid "Sales Details"
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_create_invoice__start_date
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: fan_coffee_pos
+#: model:ir.model.fields,field_description:fan_coffee_pos.field_pos_order__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: fan_coffee_pos
+#. openerp-web
+#: code:addons/fan_coffee_pos/static/src/js/pos_credit_note.js:0
+#, python-format
+msgid "You need to select the customer before you can order."
+msgstr ""
+
+#. module: fan_coffee_pos
+#: model:ir.model,name:fan_coffee_pos.model_pos_create_invoice
+msgid "pos.create.invoice"
+msgstr ""
