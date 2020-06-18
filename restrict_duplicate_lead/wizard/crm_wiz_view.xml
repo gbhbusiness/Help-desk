@@ -1,0 +1,28 @@
+
+<odoo>
+
+    <!-- Form View Of Wizard -->
+
+    <record id="wiz_crm_lead_wizard_form_view" model="ir.ui.view">
+        <field name="name">crm.lead.wizard.form</field>
+        <field name="model">crm.lead.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <field name='note' nolabel="1" attrs="{'invisible': ['|',('lead_id', '!=', False),('partner_id', '!=', False)]}" readonly="1"/>
+                    <group>
+                        <group>
+                            <field name='partner_id' attrs="{'invisible': [('partner_id', '=', False)]}" readonly="1"/>
+                            <field name='lead_id' attrs="{'invisible': [('lead_id', '=', False)]}" readonly="1"/>
+                        </group>
+                    </group>
+                    
+                </sheet>
+                <footer>
+                    <button class="btn-secondary" special="cancel" string="Close"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>
